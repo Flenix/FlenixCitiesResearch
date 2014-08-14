@@ -1,0 +1,16 @@
+[
+{
+  "modid": "FlenixCitiesResearch",
+  "name": "FlenixCitiesResearch",
+  "description": "Research module for FlenixCities",
+  "version": "0.4",
+  "mcversion": "1.7.10",
+  "url": "http://www.silvania.co.uk/mods/",
+  "updateUrl": "",
+  "authors": ["Flenix"],
+  "credits": "Silvania Studios",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
