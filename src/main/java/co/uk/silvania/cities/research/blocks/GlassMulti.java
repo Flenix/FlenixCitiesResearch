@@ -30,7 +30,8 @@ public class GlassMulti extends BlockGlass {
 	private IIcon[] icons;
 	
 	@SideOnly(Side.CLIENT)
-	public void registerIcons(IIconRegister iconRegister) {
+	@Override
+	public void registerBlockIcons(IIconRegister iconRegister) {
 		icons = new IIcon[16];
 		for (int i = 0; i < icons.length; i++) {
 			icons[i] = iconRegister.registerIcon(FlenixCities_Research.modid + ":" + (this.getUnlocalizedName().substring(5)) + i);
@@ -38,6 +39,7 @@ public class GlassMulti extends BlockGlass {
 	}
 	
 	@SideOnly(Side.CLIENT)
+	@Override
 	public IIcon getIcon(int side, int meta) {
 		return icons[meta];
 	}

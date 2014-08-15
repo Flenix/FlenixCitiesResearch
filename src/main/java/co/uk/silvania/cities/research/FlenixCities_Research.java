@@ -13,7 +13,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid=FlenixCities_Research.modid, name="FlenixCities Research", version="0.4.0")
+@Mod(modid=FlenixCities_Research.modid, dependencies="required-after:flenixcities", name="FlenixCities Research", version="0.4.0")
 public class FlenixCities_Research {
 	
 	public static final String modid = "fc_research";
