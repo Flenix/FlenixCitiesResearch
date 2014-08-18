@@ -30,6 +30,7 @@ public class CommonProxy {
 		GameRegistry.registerBlock(FCR_Blocks.simplePlayerDetector, "simplePlayerDetector");
 		
 		GameRegistry.registerBlock(FCR_Blocks.coolantBlock, "coolantBlock");
+		GameRegistry.registerBlock(FCR_Blocks.decorativeLineBlockMulti, "decorativeLineMulti");
 	}
 	
 	public void addNames() {

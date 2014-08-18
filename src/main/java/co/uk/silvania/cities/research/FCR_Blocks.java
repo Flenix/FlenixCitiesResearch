@@ -15,6 +15,7 @@ public class FCR_Blocks {
 	public static Block decorativeBlockMultiB;
 	public static Block ceramicWallMulti;
 	public static Block grillBlockMulti;
+	public static Block decorativeLineBlockMulti;
 	
 	public static Block simplePlayerDetector;
 	
@@ -34,6 +35,7 @@ public class FCR_Blocks {
 		ceramicWallMulti = new BlockMulti().setBlockName("ceramicWall");
 		grillBlockMulti = new BlockMulti().setBlockName("grillBlock");
 		decorativeBlockMultiB = new BlockMultiCT().setBlockName("decorativeBlockB");
+		decorativeLineBlockMulti = new BlockMultiCT().setBlockName("decorativeLine");
 	}
 	
 	public static void initFluids() {
