@@ -31,7 +31,7 @@ public class TileSimplePlayerDetector extends TileEntity {
 		worldObj.notifyBlockChange(xCoord, yCoord, zCoord, worldObj.getBlock(xCoord, yCoord, zCoord));
 		List players = worldObj.getEntitiesWithinAABB(EntityPlayer.class, AxisAlignedBB.getBoundingBox(xCoord - range, yCoord - range, zCoord - range, xCoord + range, yCoord + range, zCoord + range));
 		EntityPlayer player = worldObj.getClosestPlayer(xCoord, yCoord, zCoord, range);
-		System.out.println("Player list: " + players);
+		//System.out.println("Player list: " + players);
 		if (player != null) {
 			worldObj.setBlockMetadataWithNotify(xCoord, yCoord, zCoord, 1, 3);
 			this.isPowering = true;
